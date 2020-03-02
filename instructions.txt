@@ -1,0 +1,8 @@
+pyinstaller --onefile file.py
+
+>>> while True:
+...     if msvcrt.kbhit():
+...             print(msvcrt.getch())
+
+b'\r'
+b'q'
